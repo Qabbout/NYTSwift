@@ -12,11 +12,17 @@ class ArticlesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        addShadowToNavBar()
+
+    }
+
+    // MARK: UI Tweaks
+
+    private func addShadowToNavBar(){
         self.navigationController?.navigationBar.layer.shadowColor = UIColor.black.cgColor
         self.navigationController?.navigationBar.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
         self.navigationController?.navigationBar.layer.shadowRadius = 3.0
         self.navigationController?.navigationBar.layer.shadowOpacity = 0.5
-        
     }
 
     // MARK: - Table view data source
