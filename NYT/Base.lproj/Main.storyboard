@@ -66,12 +66,14 @@
                             <textAttributes key="titleTextAttributes">
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </textAttributes>
+                            <offsetWrapper key="titlePositionAdjustment" horizontal="-9000" vertical="0.0"/>
                         </navigationBarAppearance>
                         <navigationBarAppearance key="scrollEdgeAppearance">
                             <color key="backgroundColor" red="0.27641239760000003" green="0.89148229359999998" blue="0.7606303096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <textAttributes key="titleTextAttributes">
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </textAttributes>
+                            <offsetWrapper key="titlePositionAdjustment" horizontal="-9000" vertical="0.0"/>
                         </navigationBarAppearance>
                     </navigationBar>
                     <nil name="viewControllers"/>
