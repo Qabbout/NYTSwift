@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F757096927EECC0A006BBF02 /* ArticlesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757096827EECC0A006BBF02 /* ArticlesTableViewCell.swift */; };
+		F757096F27EF6591006BBF02 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757096E27EF6591006BBF02 /* Results.swift */; };
+		F757097227EF6792006BBF02 /* NYTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757097127EF6792006BBF02 /* NYTService.swift */; };
 		F7AE3E2027EE4CBA00274564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE3E1F27EE4CBA00274564 /* AppDelegate.swift */; };
 		F7AE3E2227EE4CBA00274564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE3E2127EE4CBA00274564 /* SceneDelegate.swift */; };
 		F7AE3E2727EE4CBB00274564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AE3E2527EE4CBB00274564 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 /* Begin PBXFileReference section */
 		F757096827EECC0A006BBF02 /* ArticlesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewCell.swift; sourceTree = "<group>"; };
 		F757096C27EF6093006BBF02 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		F757096E27EF6591006BBF02 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		F757097127EF6792006BBF02 /* NYTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTService.swift; sourceTree = "<group>"; };
 		F7AE3E1C27EE4CBA00274564 /* NYT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AE3E1F27EE4CBA00274564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7AE3E2127EE4CBA00274564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,13 +83,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F757096B27EECCE7006BBF02 /* ArticlesTableView */ = {
+		F757096D27EF649C006BBF02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F757096E27EF6591006BBF02 /* Results.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F757097027EF676C006BBF02 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F757097127EF6792006BBF02 /* NYTService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F757097327EF7454006BBF02 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				F7AE3E4F27EE531C00274564 /* ArticlesTableViewController.swift */,
-				F757096827EECC0A006BBF02 /* ArticlesTableViewCell.swift */,
 			);
-			path = ArticlesTableView;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		F7AE3E1327EE4CBA00274564 = {
@@ -111,7 +130,10 @@
 		F7AE3E1E27EE4CBA00274564 /* NYT */ = {
 			isa = PBXGroup;
 			children = (
+				F757096D27EF649C006BBF02 /* Models */,
 				F7AE3E5127EE76C500274564 /* Views */,
+				F757097327EF7454006BBF02 /* Controllers */,
+				F757097027EF676C006BBF02 /* Services */,
 				F7AE3E1F27EE4CBA00274564 /* AppDelegate.swift */,
 				F7AE3E2127EE4CBA00274564 /* SceneDelegate.swift */,
 				F7AE3E2827EE4CBE00274564 /* Assets.xcassets */,
@@ -141,7 +163,7 @@
 		F7AE3E5127EE76C500274564 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F757096B27EECCE7006BBF02 /* ArticlesTableView */,
+				F757096827EECC0A006BBF02 /* ArticlesTableViewCell.swift */,
 				F7AE3E2527EE4CBB00274564 /* Main.storyboard */,
 				F7AE3E2A27EE4CBE00274564 /* LaunchScreen.storyboard */,
 			);
@@ -280,9 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F757096927EECC0A006BBF02 /* ArticlesTableViewCell.swift in Sources */,
+				F757097227EF6792006BBF02 /* NYTService.swift in Sources */,
 				F7AE3E5027EE531C00274564 /* ArticlesTableViewController.swift in Sources */,
 				F7AE3E2027EE4CBA00274564 /* AppDelegate.swift in Sources */,
 				F7AE3E2227EE4CBA00274564 /* SceneDelegate.swift in Sources */,
+				F757096F27EF6591006BBF02 /* Results.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
