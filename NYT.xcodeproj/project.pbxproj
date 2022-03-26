@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		F757096827EECC0A006BBF02 /* ArticlesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewCell.swift; sourceTree = "<group>"; };
+		F757096C27EF6093006BBF02 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		F7AE3E1C27EE4CBA00274564 /* NYT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AE3E1F27EE4CBA00274564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7AE3E2127EE4CBA00274564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +115,7 @@
 				F7AE3E1F27EE4CBA00274564 /* AppDelegate.swift */,
 				F7AE3E2127EE4CBA00274564 /* SceneDelegate.swift */,
 				F7AE3E2827EE4CBE00274564 /* Assets.xcassets */,
+				F757096C27EF6093006BBF02 /* Development.xcconfig */,
 				F7AE3E2D27EE4CBE00274564 /* Info.plist */,
 			);
 			path = NYT;
@@ -338,6 +340,7 @@
 /* Begin XCBuildConfiguration section */
 		F7AE3E4427EE4CBE00274564 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F757096C27EF6093006BBF02 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -399,6 +402,7 @@
 		};
 		F7AE3E4527EE4CBE00274564 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F757096C27EF6093006BBF02 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
