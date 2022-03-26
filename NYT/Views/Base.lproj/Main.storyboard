@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,6 +19,7 @@
                         <activityIndicatorView key="tableHeaderView" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" id="6nl-P5-qQf">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="color" red="0.27641239760000003" green="0.89148229359999998" blue="0.7606303096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </activityIndicatorView>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="article" id="5MT-Nc-od4" customClass="ArticlesTableViewCell" customModule="NYT" customModuleProvider="target">
@@ -61,9 +63,10 @@
                                                         <stackView opaque="NO" clipsSubviews="YES" contentMode="right" distribution="equalSpacing" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qW6-0U-wpa">
                                                             <rect key="frame" x="0.0" y="33.5" width="277.5" height="20"/>
                                                             <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="right" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8Fe-We-0U6">
-                                                                    <rect key="frame" x="0.0" y="1" width="206" height="17.5"/>
-                                                                    <color key="tintColor" red="0.091227047150000004" green="0.078244276340000002" blue="0.07103329152" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="right" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="8Fe-We-0U6">
+                                                                    <rect key="frame" x="0.0" y="2.5" width="206" height="14.5"/>
+                                                                    <color key="tintColor" systemColor="labelColor"/>
+                                                                    <imageReference key="image" image="calendar" catalog="system" symbolScale="small"/>
                                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="regular"/>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="2017-06-23" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBi-ap-Jdy">
@@ -137,19 +140,19 @@
                         <color key="backgroundColor" red="0.27641239760000003" green="0.89148229359999998" blue="0.7606303096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.27641239760000003" green="0.89148229359999998" blue="0.7606303096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" systemColor="systemBackgroundColor"/>
                         </textAttributes>
                         <navigationBarAppearance key="standardAppearance">
                             <color key="backgroundColor" red="0.27641239760000003" green="0.89148229359999998" blue="0.7606303096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <textAttributes key="titleTextAttributes">
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
                             </textAttributes>
                             <offsetWrapper key="titlePositionAdjustment" horizontal="-9000" vertical="0.0"/>
                         </navigationBarAppearance>
                         <navigationBarAppearance key="scrollEdgeAppearance">
                             <color key="backgroundColor" red="0.27641239760000003" green="0.89148229359999998" blue="0.7606303096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <textAttributes key="titleTextAttributes">
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
                             </textAttributes>
                             <offsetWrapper key="titlePositionAdjustment" horizontal="-9000" vertical="0.0"/>
                         </navigationBarAppearance>
@@ -168,6 +171,9 @@
         <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="ellipsis" catalog="system" width="128" height="37"/>
         <image name="line.3.horizontal" catalog="system" width="128" height="64"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
