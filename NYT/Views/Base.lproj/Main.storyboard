@@ -139,8 +139,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqc-SB-rD9">
-                                <rect key="frame" x="171.5" y="386" width="71" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abstract" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqc-SB-rD9">
+                                <rect key="frame" x="10" y="100" width="394" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -149,8 +149,9 @@
                         <viewLayoutGuide key="safeArea" id="nHX-Nd-gk1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Cqc-SB-rD9" firstAttribute="centerX" secondItem="v4N-QW-LAI" secondAttribute="centerX" id="2CN-El-4Dh"/>
-                            <constraint firstItem="Cqc-SB-rD9" firstAttribute="centerY" secondItem="v4N-QW-LAI" secondAttribute="centerY" id="fbQ-qE-75i"/>
+                            <constraint firstItem="Cqc-SB-rD9" firstAttribute="top" secondItem="nHX-Nd-gk1" secondAttribute="top" constant="100" id="3kj-wC-g5o"/>
+                            <constraint firstItem="Cqc-SB-rD9" firstAttribute="leading" secondItem="nHX-Nd-gk1" secondAttribute="leading" constant="10" id="4LV-cf-M3h"/>
+                            <constraint firstItem="nHX-Nd-gk1" firstAttribute="trailing" secondItem="Cqc-SB-rD9" secondAttribute="trailing" constant="10" id="HCu-Wx-aX1"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VQe-7A-raK"/>
@@ -160,7 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="af3-Xf-Lws" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2401" y="137"/>
+            <point key="canvasLocation" x="2400" y="136.60714285714286"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Rdv-ho-LQL">

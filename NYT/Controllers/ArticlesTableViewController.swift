@@ -9,6 +9,7 @@ import UIKit
 
 class ArticlesTableViewController: UITableViewController {
 
+    //MARK: Variables
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
 
     var results: Results? {
@@ -21,6 +22,8 @@ class ArticlesTableViewController: UITableViewController {
             }
         }
     }
+
+    //MARK: LifeCycle Methods
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,7 +71,7 @@ class ArticlesTableViewController: UITableViewController {
 
     }
 
-    // MARK: - TableView methods
+    // MARK: - TableView Methods
 
     override func numberOfSections(in tableView: UITableView) -> Int {
 
@@ -98,6 +101,22 @@ class ArticlesTableViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
 
     }
+
+    //MARK: Nivagtions
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let selectedPath = tableView.indexPathForSelectedRow else { return }
+        switch segue.identifier {
+            case DetailsViewController.segueIdentifier:
+                if let destination = segue.destination as? DetailsViewController {
+                    destination.result = results?.results[selectedPath.section]
+                }
+            default:
+                return
+        }
+    }
+
+
 
 }
 
