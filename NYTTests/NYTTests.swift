@@ -10,27 +10,157 @@ import XCTest
 
 class NYTTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    let moockAPI = MockNYTService.shared
+    var results: Results?
+    var swiftResult: Swift.Result<Results, Error>?
+
+
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        results = nil
+        swiftResult = nil
+
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    //MARK: Test Json Decoding
+
+    func testLoadJsonShouldReturnNotNilResultsModel() {
+
+        //Arrange:
+
+        //Act:
+        results = moockAPI.loadJsonAsResultsModel()
+
+        //Assert:
+
+        XCTAssertNotNil(results)
+
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testLoadJsonShouldReturnValidResultsModel() {
+
+        //Arrange:
+
+        //Act:
+        results = moockAPI.loadJsonAsResultsModel()
+
+        //Assert:
+
+        XCTAssertGreaterThan(results!.numResults, 0)
+        XCTAssertEqual(results?.results[0].title, "Trump Is Guilty of ‘Numerous’ Felonies, Prosecutor Who Resigned Says")
+        XCTAssertEqual(results?.results[0].byline, "By William K. Rashbaum, Ben Protess and Jonah E. Bromwich")
+        XCTAssertEqual(results?.results[0].abstract, "Mark F. Pomerantz, who had investigated the former president, left after the Manhattan district attorney, Alvin Bragg, halted an effort to seek an indictment.")
+        XCTAssertEqual(results?.results[0].publishedDate, "2022-03-23")
+
+    }
+
+    //MARK: Test Get Articles Success
+
+    func testGetArticlesShouldReturnSwiftResultNotNil() throws {
+
+        //Arrange:
+        moockAPI.shouldReturnError = false
+
+
+
+        //Act:
+        moockAPI.getArticles { [weak self] result in
+            self?.swiftResult = result
+
         }
+
+        results = try swiftResult?.get()
+
+        //Assert:
+        XCTAssertNotNil(swiftResult)
+        XCTAssertNotNil(results)
+    }
+
+    func testGetArticlesResultsShouldNotThrow() throws {
+        //Arrange:
+        moockAPI.shouldReturnError = false
+
+
+
+        //Act:
+        moockAPI.getArticles { [weak self] result in
+            self?.swiftResult = result
+
+        }
+
+        //Assert:
+        XCTAssertNoThrow(try swiftResult?.get())
+    }
+
+    func testGetArticlesShouldReturnArticlesNotNil() throws {
+        //Arrange:
+        moockAPI.shouldReturnError = false
+
+
+
+        //Act:
+        moockAPI.getArticles { [weak self] result in
+            self?.swiftResult = result
+
+        }
+
+        results = try swiftResult?.get()
+
+        //Assert:
+
+        XCTAssertNotNil(results?.numResults)
+        XCTAssertNotNil(results?.results[0].title)
+        XCTAssertNotNil(results?.results[0].byline)
+        XCTAssertNotNil(results?.results[0].publishedDate)
+        XCTAssertNotNil(results?.results[0].abstract)
+    }
+
+    func testGetArticlesShouldReturnArticles() throws {
+        //Arrange:
+        moockAPI.shouldReturnError = false
+
+        //Act:
+        moockAPI.getArticles { [weak self] result in
+            self?.swiftResult = result
+
+        }
+
+        results = try swiftResult?.get()
+
+        //Assert:
+
+        XCTAssertGreaterThan(results!.numResults, 0)
+        XCTAssertEqual(results?.results[0].title, "Trump Is Guilty of ‘Numerous’ Felonies, Prosecutor Who Resigned Says")
+        XCTAssertEqual(results?.results[0].byline, "By William K. Rashbaum, Ben Protess and Jonah E. Bromwich")
+        XCTAssertEqual(results?.results[0].abstract, "Mark F. Pomerantz, who had investigated the former president, left after the Manhattan district attorney, Alvin Bragg, halted an effort to seek an indictment.")
+        XCTAssertEqual(results?.results[0].publishedDate, "2022-03-23")
+    }
+
+    //MARK: Test Get Articles Failure
+
+    func testGetArticlesShouldThrowGetArticlesError() throws {
+        //Arrange:
+        moockAPI.shouldReturnError = true
+        var resultsError: Error?
+
+        //Act:
+        moockAPI.getArticles { [weak self] result in
+            self?.swiftResult = result
+
+        }
+        do {
+            results = try swiftResult?.get()
+
+        } catch {
+            resultsError = error
+        }
+
+        //Assert:
+        XCTAssertThrowsError(try swiftResult?.get())
+        XCTAssertNil(results)
+        XCTAssertNotNil(resultsError)
+
+
     }
 
 }
