@@ -1,0 +1,1248 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2022 The New York Times Company.  All Rights Reserved.",
+    "num_results": 20,
+    "results": [
+        {
+            "uri": "nyt://article/be93acde-db33-560e-8704-0b319d98986a",
+            "url": "https://www.nytimes.com/2022/03/23/nyregion/trump-investigation-felony-resignation-pomerantz.html",
+            "id": 100000008238974,
+            "asset_id": 100000008238974,
+            "source": "New York Times",
+            "published_date": "2022-03-23",
+            "updated": "2022-03-24 09:14:58",
+            "section": "New York",
+            "subsection": "",
+            "nytdsection": "new york",
+            "adx_keywords": "Trump Tax Returns;Frauds and Swindling;Tax Evasion;District Attorneys;United States Politics and Government;Pomerantz, Mark F;Dunne, Carey R;Bragg, Alvin;Trump, Donald J;Vance, Cyrus R Jr;Trump Organization;Manhattan (NYC)",
+            "column": null,
+            "byline": "By William K. Rashbaum, Ben Protess and Jonah E. Bromwich",
+            "type": "Article",
+            "title": "Trump Is Guilty of ‘Numerous’ Felonies, Prosecutor Who Resigned Says",
+            "abstract": "Mark F. Pomerantz, who had investigated the former president, left after the Manhattan district attorney, Alvin Bragg, halted an effort to seek an indictment.",
+            "des_facet": [
+                "Trump Tax Returns",
+                "Frauds and Swindling",
+                "Tax Evasion",
+                "District Attorneys",
+                "United States Politics and Government"
+            ],
+            "org_facet": [
+                "Trump Organization"
+            ],
+            "per_facet": [
+                "Pomerantz, Mark F",
+                "Dunne, Carey R",
+                "Bragg, Alvin",
+                "Trump, Donald J",
+                "Vance, Cyrus R Jr"
+            ],
+            "geo_facet": [
+                "Manhattan (NYC)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Donald J. Trump’s business practices have been the subject of a yearslong investigation by the Manhattan district attorney’s office. ",
+                    "copyright": "Scott McIntyre for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/22/nyregion/00trumpletter1/00trumpletter1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/22/nyregion/00trumpletter1/00trumpletter1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/22/nyregion/00trumpletter1/00trumpletter1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/36d424da-22d3-52df-b4fe-36dfd5e069fc",
+            "url": "https://www.nytimes.com/2022/03/20/us/politics/project-veritas-ashley-biden-diary.html",
+            "id": 100000008260782,
+            "asset_id": 100000008260782,
+            "source": "New York Times",
+            "published_date": "2022-03-20",
+            "updated": "2022-03-23 09:17:06",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Presidential Election of 2020;United States Politics and Government;News and News Media;Diaries;First Amendment (US Constitution);Biden, Ashley (1981- );O'Keefe, James E III;Biden, Joseph R Jr;Trump, Donald J Jr;Trump, Donald J;Harris, Aimee (1982- );Paoletta, Mark;Kurlander, Robert (1963- );Project Veritas;New York Times",
+            "column": null,
+            "byline": "By Michael S. Schmidt and Adam Goldman",
+            "type": "Article",
+            "title": "Ashley Biden’s Diary Was Shown at Trump Fund-Raiser. Weeks Later, Project Veritas Called Her.",
+            "abstract": "The right-wing group’s deceptive call to the president’s daughter a month before Election Day is among the new details that show how the organization worked to expose personal information about the Biden family.",
+            "des_facet": [
+                "Presidential Election of 2020",
+                "United States Politics and Government",
+                "News and News Media",
+                "Diaries",
+                "First Amendment (US Constitution)"
+            ],
+            "org_facet": [
+                "Project Veritas",
+                "New York Times"
+            ],
+            "per_facet": [
+                "Biden, Ashley (1981- )",
+                "O'Keefe, James E III",
+                "Biden, Joseph R Jr",
+                "Trump, Donald J Jr",
+                "Trump, Donald J",
+                "Harris, Aimee (1982- )",
+                "Paoletta, Mark",
+                "Kurlander, Robert (1963- )"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Ashley Biden hugging her father, President Biden, last year. New information about the case suggests that the effort to make Ms. Biden’s diary public reached deeper into Donald J. Trump’s circle than previously known.",
+                    "copyright": "Sarahbeth Maney/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/19/us/politics/19dc-veritas1/19dc-veritas1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/19/us/politics/19dc-veritas1/merlin_198503616_f93f3d42-c9dd-4c69-af58-9003bd7ea5d2-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/19/us/politics/19dc-veritas1/merlin_198503616_f93f3d42-c9dd-4c69-af58-9003bd7ea5d2-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/3b8c571b-346a-5c5a-88ac-a11f82712e48",
+            "url": "https://www.nytimes.com/2022/03/25/arts/music/taylor-hawkins-foo-fighters-dead.html",
+            "id": 100000008273204,
+            "asset_id": 100000008273204,
+            "source": "New York Times",
+            "published_date": "2022-03-25",
+            "updated": "2022-03-27 12:54:31",
+            "section": "Arts",
+            "subsection": "Music",
+            "nytdsection": "arts",
+            "adx_keywords": "Deaths (Obituaries);Pop and Rock Music;Hawkins, Taylor (1972-2022);Foo Fighters",
+            "column": null,
+            "byline": "By Caryn Ganz and Joe Coscarelli",
+            "type": "Article",
+            "title": "Taylor Hawkins, Foo Fighters’ Drummer, Dies at 50",
+            "abstract": "Hard-hitting and charismatic, he was direct about his hopes for the group’s future, even after two decades. “I want to be the biggest band in the world,” he said.",
+            "des_facet": [
+                "Deaths (Obituaries)",
+                "Pop and Rock Music"
+            ],
+            "org_facet": [
+                "Foo Fighters"
+            ],
+            "per_facet": [
+                "Hawkins, Taylor (1972-2022)"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Taylor Hawkins of Foo Fighters at a concert in New York City last November.",
+                    "copyright": "Nina Westervelt for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/27/arts/25hawkins-print1-sub/25hawkins-new-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/27/arts/25hawkins-print1-sub/merlin_198228096_dd23d70a-2cd4-4adc-8935-c88c0a937afd-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/27/arts/25hawkins-print1-sub/merlin_198228096_dd23d70a-2cd4-4adc-8935-c88c0a937afd-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/8ba00e72-192c-5eca-8244-92f7e4b726da",
+            "url": "https://www.nytimes.com/2022/03/18/health/prolonged-grief-disorder.html",
+            "id": 100000008246325,
+            "asset_id": 100000008246325,
+            "source": "New York Times",
+            "published_date": "2022-03-18",
+            "updated": "2022-03-25 11:27:00",
+            "section": "Health",
+            "subsection": "",
+            "nytdsection": "health",
+            "adx_keywords": "Grief (Emotion);Mental Health and Disorders;Depression (Mental);Therapy and Rehabilitation;Psychiatry and Psychiatrists;your-feed-healthcare;Prigerson, Holly G;Shear, Katherine;American Psychiatric Assn;United States",
+            "column": null,
+            "byline": "By Ellen Barry",
+            "type": "Article",
+            "title": "How Long Should It Take to Grieve? Psychiatry Has Come Up With an Answer.",
+            "abstract": "The latest edition of the DSM-5, sometimes known as “psychiatry’s bible,” includes a controversial new diagnosis: prolonged grief disorder.",
+            "des_facet": [
+                "Grief (Emotion)",
+                "Mental Health and Disorders",
+                "Depression (Mental)",
+                "Therapy and Rehabilitation",
+                "Psychiatry and Psychiatrists",
+                "your-feed-healthcare"
+            ],
+            "org_facet": [
+                "American Psychiatric Assn"
+            ],
+            "per_facet": [
+                "Prigerson, Holly G",
+                "Shear, Katherine"
+            ],
+            "geo_facet": [
+                "United States"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Holly Prigerson, a professor of sociology in medicine, has worked to include prolonged grief as a classified, diagnosable psychiatric disorder.",
+                    "copyright": "Hiroko Masuike/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/19/science/19grief2/00grief2-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/19/science/19grief2/00grief2-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/19/science/19grief2/00grief2-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/6cb494ca-726b-539f-80e1-80628f3036dc",
+            "url": "https://www.nytimes.com/2022/03/22/world/europe/ukraine-air-force-russia.html",
+            "id": 100000008263183,
+            "asset_id": 100000008263183,
+            "source": "New York Times",
+            "published_date": "2022-03-22",
+            "updated": "2022-03-24 08:00:51",
+            "section": "World",
+            "subsection": "Europe",
+            "nytdsection": "world",
+            "adx_keywords": "Russian Invasion of Ukraine (2022);Defense and Military Forces;Military Aircraft;North Atlantic Treaty Organization;Ukraine;Russia",
+            "column": null,
+            "byline": "By Maria Varenikova and Andrew E. Kramer",
+            "type": "Article",
+            "title": "How Ukraine’s Outgunned Air Force Is Fighting Back Against Russian Jets",
+            "abstract": "Aerial dogfights. Top Gun-style duels. Ukraine’s fighter pilots are badly outnumbered but have so far kept Russia from controlling the skies.",
+            "des_facet": [
+                "Russian Invasion of Ukraine (2022)",
+                "Defense and Military Forces",
+                "Military Aircraft"
+            ],
+            "org_facet": [
+                "North Atlantic Treaty Organization"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "Ukraine",
+                "Russia"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Andriy, a Ukrainian Air Force pilot.“Every time when I fly, it’s for a real fight,” he said.",
+                    "copyright": "Brendan Hoffman for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/21/world/21ukraine-pilot-2/21ukraine-pilot-2-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/21/world/21ukraine-pilot-2/21ukraine-pilot-2-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/21/world/21ukraine-pilot-2/21ukraine-pilot-2-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/2f265729-cb8c-5691-b9fd-1db9c8627721",
+            "url": "https://www.nytimes.com/2022/03/23/health/covid-africa-deaths.html",
+            "id": 100000008233463,
+            "asset_id": 100000008233463,
+            "source": "New York Times",
+            "published_date": "2022-03-23",
+            "updated": "2022-03-24 08:02:24",
+            "section": "Health",
+            "subsection": "",
+            "nytdsection": "health",
+            "adx_keywords": "Disease Rates;Coronavirus (2019-nCoV);Deaths (Fatalities);Research;Antibodies;your-feed-science;Africa;Sierra Leone;South Africa",
+            "column": null,
+            "byline": "By Stephanie Nolen",
+            "type": "Article",
+            "title": "Trying to Solve a Covid Mystery: Africa’s Low Death Rates",
+            "abstract": "The coronavirus was expected to devastate the continent, but higher-income and better-prepared countries appear to have fared far worse.",
+            "des_facet": [
+                "Disease Rates",
+                "Coronavirus (2019-nCoV)",
+                "Deaths (Fatalities)",
+                "Research",
+                "Antibodies",
+                "your-feed-science"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "Africa",
+                "Sierra Leone",
+                "South Africa"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A wedding in the village of Kamakuyor in northern Sierra Leone last month. During the pandemic, the village’s district has recorded just 11 Covid cases and no deaths.",
+                    "copyright": "Finbarr O’Reilly for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/science/24virus-africa-deaths3/merlin_203167950_8cf8755f-5d73-4f30-94fc-543df7b0e20e-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/science/24virus-africa-deaths3/merlin_203167950_8cf8755f-5d73-4f30-94fc-543df7b0e20e-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/science/24virus-africa-deaths3/merlin_203167950_8cf8755f-5d73-4f30-94fc-543df7b0e20e-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/4c9fc6ec-1245-5582-a297-574a575cf6f1",
+            "url": "https://www.nytimes.com/2022/03/22/world/europe/putin-russia-military-planning.html",
+            "id": 100000008266418,
+            "asset_id": 100000008266418,
+            "source": "New York Times",
+            "published_date": "2022-03-22",
+            "updated": "2022-03-23 11:01:46",
+            "section": "World",
+            "subsection": "Europe",
+            "nytdsection": "world",
+            "adx_keywords": "Russian Invasion of Ukraine (2022);Defense and Military Forces;Deaths (Fatalities);Politics and Government;Putin, Vladimir V;Shoigu, Sergei K;Russia;Ukraine",
+            "column": null,
+            "byline": "By Anton Troianovski and Michael Schwirtz",
+            "type": "Article",
+            "title": "As Russia Stalls in Ukraine, Dissent Brews Over Putin’s Leadership",
+            "abstract": "Military losses have mounted, progress has slowed, and a blame game has begun among some Russian supporters of the war.",
+            "des_facet": [
+                "Russian Invasion of Ukraine (2022)",
+                "Defense and Military Forces",
+                "Deaths (Fatalities)",
+                "Politics and Government"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Putin, Vladimir V",
+                "Shoigu, Sergei K"
+            ],
+            "geo_facet": [
+                "Russia",
+                "Ukraine"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Defense Minister Sergei K. Shoigu, second from left, and his top military commander, Gen. Valery Gerasimov, meeting with President Vladimir V. Putin last month.",
+                    "copyright": "Pool photo by Alexei Nikolsky",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/22/world/22ukraine-russia-1/22ukraine-russia-1-thumbStandard-v2.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/22/world/22ukraine-russia-1/22ukraine-russia-1-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/22/world/22ukraine-russia-1/22ukraine-russia-1-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/65731bc0-7122-5b05-b80d-bd5078306232",
+            "url": "https://www.nytimes.com/2022/03/24/us/politics/ginni-thomas-trump-mark-meadows.html",
+            "id": 100000008271134,
+            "asset_id": 100000008271134,
+            "source": "New York Times",
+            "published_date": "2022-03-24",
+            "updated": "2022-03-25 18:06:01",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Presidential Election of 2020;Storming of the US Capitol (Jan, 2021);United States Politics and Government;Text Messaging;Project: Democracy;Voter Fraud (Election Fraud);Right-Wing Extremism and Alt-Right;Conspiracy Theories;Thomas, Virginia Lamp;Meadows, Mark R (1959- );Trump, Donald J",
+            "column": null,
+            "byline": "By Danny Hakim, Luke Broadwater and Jo Becker",
+            "type": "Article",
+            "title": "Ginni Thomas Pressed Trump’s Chief of Staff to Overturn 2020 Vote, Texts Show",
+            "abstract": "Messages between Justice Clarence Thomas’s wife and Mark Meadows are the first evidence that she directly advised the White House to reverse the election results.",
+            "des_facet": [
+                "Presidential Election of 2020",
+                "Storming of the US Capitol (Jan, 2021)",
+                "United States Politics and Government",
+                "Text Messaging",
+                "Project: Democracy",
+                "Voter Fraud (Election Fraud)",
+                "Right-Wing Extremism and Alt-Right",
+                "Conspiracy Theories"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Thomas, Virginia Lamp",
+                "Meadows, Mark R (1959- )",
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The congressional committee investigating the Jan. 6 attack obtained 29 text messages between Ginni Thomas, above, and the White House chief of staff.",
+                    "copyright": "Drew Angerer/Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/multimedia/24GINNI/24GINNI-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/multimedia/24GINNI/24GINNI-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/multimedia/24GINNI/24GINNI-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/c98245f7-947a-590a-8de9-fe5cc539e18c",
+            "url": "https://www.nytimes.com/2022/03/24/style/ketanji-brown-jackson-daughter-photo.html",
+            "id": 100000008269880,
+            "asset_id": 100000008269880,
+            "source": "New York Times",
+            "published_date": "2022-03-24",
+            "updated": "2022-03-24 18:46:50",
+            "section": "Style",
+            "subsection": "",
+            "nytdsection": "style",
+            "adx_keywords": "Photography;Appointments and Executive Changes;United States Politics and Government;Jackson, Ketanji Brown (1970- );Jackson, Leila A;Maney, Sarahbeth;Supreme Court (US);New York Times",
+            "column": null,
+            "byline": "By Gina Cherelus",
+            "type": "Article",
+            "title": "The Story Behind That Photo of Ketanji Brown Jackson and Her Daughter",
+            "abstract": "A Times photographer talks about documenting history and pride at the Supreme Court confirmation hearings.",
+            "des_facet": [
+                "Photography",
+                "Appointments and Executive Changes",
+                "United States Politics and Government"
+            ],
+            "org_facet": [
+                "Supreme Court (US)",
+                "New York Times"
+            ],
+            "per_facet": [
+                "Jackson, Ketanji Brown (1970- )",
+                "Jackson, Leila A",
+                "Maney, Sarahbeth"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Leila Jackson, right, on the first day of the Supreme Court confirmation hearings for her mother, Judge Ketanji Brown Jackson, center.",
+                    "copyright": "Sarahbeth Maney/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/multimedia/24KBJ-DAUGHTER-1/24KBJ-DAUGHTER-1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/multimedia/24KBJ-DAUGHTER-1/24KBJ-DAUGHTER-1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/multimedia/24KBJ-DAUGHTER-1/24KBJ-DAUGHTER-1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/5f64f755-a0d7-5f81-97b2-ad1028187b7c",
+            "url": "https://www.nytimes.com/2022/03/19/health/covid-ba2-surge-variant.html",
+            "id": 100000008259205,
+            "asset_id": 100000008259205,
+            "source": "New York Times",
+            "published_date": "2022-03-19",
+            "updated": "2022-03-20 13:37:34",
+            "section": "Health",
+            "subsection": "",
+            "nytdsection": "health",
+            "adx_keywords": "Coronavirus Omicron Variant;Coronavirus (2019-nCoV);Vaccination and Immunization;Disease Rates;Hospitals;States (US);United States Politics and Government;your-feed-science;United States",
+            "column": null,
+            "byline": "By Benjamin Mueller",
+            "type": "Article",
+            "title": "Another Covid Surge May Be Coming. Are We Ready for It?",
+            "abstract": "“We’ve been wearing rose-colored glasses instead of correcting our vision,” one scientist said.",
+            "des_facet": [
+                "Coronavirus Omicron Variant",
+                "Coronavirus (2019-nCoV)",
+                "Vaccination and Immunization",
+                "Disease Rates",
+                "Hospitals",
+                "States (US)",
+                "United States Politics and Government",
+                "your-feed-science"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "United States"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "An intensive care unit in Washington, D.C., this month. Though Covid case numbers are falling in most of the country, scientists warn that the quiet may soon give way to another surge by an Omicron subvariant, BA.2.",
+                    "copyright": "Will Oliver/EPA, via Shutterstock",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/19/science/19virus-US1/merlin_203189742_17c1ed28-1f51-4910-a5bc-4bef6b992062-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/19/science/19virus-US1/19virus-US1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/19/science/19virus-US1/19virus-US1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/8f43a16f-58ea-58d6-bec6-63970dfa5b13",
+            "url": "https://www.nytimes.com/2022/03/23/us/politics/biden-russia-nuclear-weapons.html",
+            "id": 100000008267712,
+            "asset_id": 100000008267712,
+            "source": "New York Times",
+            "published_date": "2022-03-23",
+            "updated": "2022-03-24 10:05:11",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Russian Invasion of Ukraine (2022);United States International Relations;Nuclear Weapons;Biological and Chemical Warfare;United States Defense and Military Forces;United States Politics and Government;Biden, Joseph R Jr;Sullivan, Jacob J (1976- );Putin, Vladimir V;North Atlantic Treaty Organization;Defense Department;National Security Council;Russia;Ukraine",
+            "column": null,
+            "byline": "By David E. Sanger, Eric Schmitt, Helene Cooper and Julian E. Barnes",
+            "type": "Article",
+            "title": "U.S. Makes Contingency Plans in Case Russia Uses Its Most Powerful Weapons",
+            "abstract": "A team of national security officials has been assigned to sketch out responses if President Vladimir V. Putin unleashes chemical, biological or nuclear weapons.",
+            "des_facet": [
+                "Russian Invasion of Ukraine (2022)",
+                "United States International Relations",
+                "Nuclear Weapons",
+                "Biological and Chemical Warfare",
+                "United States Defense and Military Forces",
+                "United States Politics and Government"
+            ],
+            "org_facet": [
+                "North Atlantic Treaty Organization",
+                "Defense Department",
+                "National Security Council"
+            ],
+            "per_facet": [
+                "Biden, Joseph R Jr",
+                "Sullivan, Jacob J (1976- )",
+                "Putin, Vladimir V"
+            ],
+            "geo_facet": [
+                "Russia",
+                "Ukraine"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Biden arrived in Brussels on Wednesday, where he will meet with NATO leaders.",
+                    "copyright": "Doug Mills/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/04/22/us/politics/22dc-prexy-sub1/merlin_204367830_bf5f4b50-1d81-4715-9add-ceb31c6e0d68-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/04/22/us/politics/22dc-prexy-sub1/merlin_204367830_bf5f4b50-1d81-4715-9add-ceb31c6e0d68-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/04/22/us/politics/22dc-prexy-sub1/merlin_204367830_bf5f4b50-1d81-4715-9add-ceb31c6e0d68-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/89018169-76c0-5321-b888-ef1a69b1753e",
+            "url": "https://www.nytimes.com/2022/03/23/well/how-to-do-squats.html",
+            "id": 100000008232482,
+            "asset_id": 100000008232482,
+            "source": "New York Times",
+            "published_date": "2022-03-23",
+            "updated": "2022-03-23 16:58:10",
+            "section": "Well",
+            "subsection": "",
+            "nytdsection": "well",
+            "adx_keywords": "Exercise;Muscles;Knees;Content Type: Service",
+            "column": null,
+            "byline": "By Gretchen Reynolds and Brown Bird Design",
+            "type": "Article",
+            "title": "The Power of the Squat",
+            "abstract": "It’s the one exercise most of us should be doing. But we need to do it right.",
+            "des_facet": [
+                "Exercise",
+                "Muscles",
+                "Knees",
+                "Content Type: Service"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Jill Brady/Portland Portland Press Herald via Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/23/well/23well-squats/23well-squats-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/23/well/23well-squats/23well-squats-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/23/well/23well-squats/23well-squats-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/2cefc347-94e5-5d44-9349-0164db00776c",
+            "url": "https://www.nytimes.com/2022/03/21/science/russia-nuclear-ukraine.html",
+            "id": 100000008204041,
+            "asset_id": 100000008204041,
+            "source": "New York Times",
+            "published_date": "2022-03-21",
+            "updated": "2022-03-24 08:27:03",
+            "section": "Science",
+            "subsection": "",
+            "nytdsection": "science",
+            "adx_keywords": "Nuclear Weapons;Russian Invasion of Ukraine (2022);Defense and Military Forces;United States Defense and Military Forces;United States International Relations;Missiles and Missile Defense Systems;Submarines and Submersibles;your-feed-science;Putin, Vladimir V;North Atlantic Treaty Organization;Russia;Ukraine;United States",
+            "column": null,
+            "byline": "By William J. Broad",
+            "type": "Article",
+            "title": "The Smaller Bombs That Could Turn Ukraine Into a Nuclear War Zone",
+            "abstract": "Military experts say a new generation of nuclear weapons has raised the risk that Mr. Putin might introduce less destructive atomic arms into the battlefields in and around Ukraine.",
+            "des_facet": [
+                "Nuclear Weapons",
+                "Russian Invasion of Ukraine (2022)",
+                "Defense and Military Forces",
+                "United States Defense and Military Forces",
+                "United States International Relations",
+                "Missiles and Missile Defense Systems",
+                "Submarines and Submersibles",
+                "your-feed-science"
+            ],
+            "org_facet": [
+                "North Atlantic Treaty Organization"
+            ],
+            "per_facet": [
+                "Putin, Vladimir V"
+            ],
+            "geo_facet": [
+                "Russia",
+                "Ukraine",
+                "United States"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A photo released by a Russian state-owned news agency showing an Iskander-M launch vehicle being loaded with a ballistic missile during military exercises at a Russian firing range in Ussuriysk in 2016.",
+                    "copyright": "Yuri Smityuk/TASS, via Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/02/11/science/00nukes/00nukes-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/02/11/science/00nukes/00nukes-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/02/11/science/00nukes/00nukes-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/240a7e21-dd21-5297-a208-06dd670cb7a4",
+            "url": "https://www.nytimes.com/2022/03/24/world/europe/switzerland-montreux-family-balcony-deaths.html",
+            "id": 100000008269609,
+            "asset_id": 100000008269609,
+            "source": "New York Times",
+            "published_date": "2022-03-24",
+            "updated": "2022-03-24 10:22:55",
+            "section": "World",
+            "subsection": "Europe",
+            "nytdsection": "world",
+            "adx_keywords": "Balconies and Terraces;Deaths (Fatalities);Montreux (Switzerland);Switzerland",
+            "column": null,
+            "byline": "By Emma Bubola",
+            "type": "Article",
+            "title": "4 Die After Falling From Balcony in Swiss Resort Town",
+            "abstract": "The police, who are investigating the cause, said the people were most likely members of the same family, including an 8-year-old girl, her parents and aunt. A boy, 15, was in the hospital in critical condition.",
+            "des_facet": [
+                "Balconies and Terraces",
+                "Deaths (Fatalities)"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "Montreux (Switzerland)",
+                "Switzerland"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Police officers taking samples on a balcony from which five people fell, with four of them dying, in Montreux, Switzerland, on Thursday.",
+                    "copyright": "Denis Balibouse/Reuters",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/world/24switzerland01/24switzerland01-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/world/24switzerland01/merlin_204393033_fb92127c-8c83-496d-8cf1-7cb8340c06f1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/world/24switzerland01/merlin_204393033_fb92127c-8c83-496d-8cf1-7cb8340c06f1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/41544406-e749-5254-991d-eb53330ce865",
+            "url": "https://www.nytimes.com/2022/03/23/us/madeleine-albright-dead.html",
+            "id": 100000006681401,
+            "asset_id": 100000006681401,
+            "source": "New York Times",
+            "published_date": "2022-03-23",
+            "updated": "2022-03-25 09:06:54",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Deaths (Obituaries);United States Politics and Government;United States International Relations;Women and Girls;Albright, Madeleine K;Clinton, Bill;United Nations",
+            "column": null,
+            "byline": "By Robert D. McFadden",
+            "type": "Article",
+            "title": "Madeleine Albright, First Woman to Serve as Secretary of State, Dies at 84",
+            "abstract": "She rose to power and fame as a brilliant analyst of world affairs before serving as an aggressive advocate of President Bill Clinton’s policies.",
+            "des_facet": [
+                "Deaths (Obituaries)",
+                "United States Politics and Government",
+                "United States International Relations",
+                "Women and Girls"
+            ],
+            "org_facet": [
+                "United Nations"
+            ],
+            "per_facet": [
+                "Albright, Madeleine K",
+                "Clinton, Bill"
+            ],
+            "geo_facet": [],
+            "media": [],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/7d22b056-2e3b-5778-b1c4-526f651778b9",
+            "url": "https://www.nytimes.com/2022/03/22/magazine/ethicist-teenage-sex-parenting.html",
+            "id": 100000008260402,
+            "asset_id": 100000008260402,
+            "source": "New York Times",
+            "published_date": "2022-03-22",
+            "updated": "2022-03-27 13:05:01",
+            "section": "Magazine",
+            "subsection": "",
+            "nytdsection": "magazine",
+            "adx_keywords": "Ethics (Personal);Content Type: Service",
+            "column": null,
+            "byline": "By Kwame Anthony Appiah",
+            "type": "Article",
+            "title": "My Daughter Is Having Sex With Her Best Friend. Must I Tell Her Mom?",
+            "abstract": "The magazine’s Ethicist columnist on whether to keep your teenager’s sexual relationship secret  — and more.",
+            "des_facet": [
+                "Ethics (Personal)",
+                "Content Type: Service"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Illustration by Tomi Um",
+                    "approved_for_syndication": 0,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/27/magazine/27mag-ethicist/27mag-ethicist-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/27/magazine/27mag-ethicist/27mag-ethicist-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/27/magazine/27mag-ethicist/27mag-ethicist-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/b7dc9902-aecf-5b03-8886-5629d7c8d047",
+            "url": "https://www.nytimes.com/2022/03/23/nyregion/mark-pomerantz-resignation-letter.html",
+            "id": 100000008268863,
+            "asset_id": 100000008268863,
+            "source": "New York Times",
+            "published_date": "2022-03-23",
+            "updated": "2022-03-23 18:58:38",
+            "section": "New York",
+            "subsection": "",
+            "nytdsection": "new york",
+            "adx_keywords": "United States Politics and Government;Bragg, Alvin;Pomerantz, Mark F;Trump, Donald J;Vance, Cyrus R Jr;Trump Organization",
+            "column": null,
+            "byline": "",
+            "type": "Article",
+            "title": "Read the Full Text of Mark Pomerantz’s Resignation Letter",
+            "abstract": "The former prosecutor who investigated Donald J. Trump believed that the former president was “guilty of numerous felony violations.”",
+            "des_facet": [
+                "United States Politics and Government"
+            ],
+            "org_facet": [
+                "Trump Organization"
+            ],
+            "per_facet": [
+                "Bragg, Alvin",
+                "Pomerantz, Mark F",
+                "Trump, Donald J",
+                "Vance, Cyrus R Jr"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "David Karp/Associated Press",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/23/nyregion/23trumpletter-text/23trumpletter-text-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/23/nyregion/23trumpletter-text/23trumpletter-text-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/23/nyregion/23trumpletter-text/23trumpletter-text-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/5ab1e528-0fa3-5cb5-8c8f-4465ff3418f8",
+            "url": "https://www.nytimes.com/2021/01/11/style/kamala-harris-vogue.html",
+            "id": 100000007544844,
+            "asset_id": 100000007544844,
+            "source": "New York Times",
+            "published_date": "2021-01-11",
+            "updated": "2021-01-17 15:17:05",
+            "section": "Style",
+            "subsection": "",
+            "nytdsection": "style",
+            "adx_keywords": "Fashion and Apparel;Magazines;Black People;United States Politics and Government;Women and Girls;Race and Ethnicity;Photography;your-feed-fashion;Harris, Kamala D;Mitchell, Tyler (Photographer);Wintour, Anna;Vogue",
+            "column": null,
+            "byline": "By Vanessa Friedman",
+            "type": "Article",
+            "title": "Why a Vogue Cover Created an Uproar Over Kamala Harris",
+            "abstract": "The vice president-elect is on the cover of the U.S. fashion magazine. Many people were not happy with the result.",
+            "des_facet": [
+                "Fashion and Apparel",
+                "Magazines",
+                "Black People",
+                "United States Politics and Government",
+                "Women and Girls",
+                "Race and Ethnicity",
+                "Photography",
+                "your-feed-fashion"
+            ],
+            "org_facet": [
+                "Vogue"
+            ],
+            "per_facet": [
+                "Harris, Kamala D",
+                "Mitchell, Tyler (Photographer)",
+                "Wintour, Anna"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Vogue&rsquo;s &ldquo;digital cover&rdquo; for the cover story features Ms. Harris in a pale blue suit by Michael Kors Collection.",
+                    "copyright": "Tyler Mitchell/Vogue",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/01/14/fashion/11Kamala-Vogue-02/11Kamala-Vogue-02-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/01/14/fashion/11Kamala-Vogue-02/11Kamala-Vogue-02-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/01/14/fashion/11Kamala-Vogue-02/11Kamala-Vogue-02-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/5488eadc-586f-52e2-bbc8-47c059a32cc3",
+            "url": "https://www.nytimes.com/2022/03/25/us/ted-cruz-antiracist-school.html",
+            "id": 100000008271339,
+            "asset_id": 100000008271339,
+            "source": "New York Times",
+            "published_date": "2022-03-25",
+            "updated": "2022-03-26 12:40:30",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Education (K-12);Race and Ethnicity;Black People;Discrimination;Critical Race Theory;Private and Sectarian Schools;United States Politics and Government;Jackson, Ketanji Brown (1970- );Cruz, Ted;Senate;Supreme Court (US);Georgetown Day School (Washington, DC)",
+            "column": null,
+            "byline": "By Vimal Patel",
+            "type": "Article",
+            "title": "Ted Cruz’s Daughters Attend a Private School That Is ‘Antiracist’",
+            "abstract": "The Texas senator aggressively questioned Judge Ketanji Brown Jackson this week for serving on the board of a school “overflowing with critical race theory.”",
+            "des_facet": [
+                "Education (K-12)",
+                "Race and Ethnicity",
+                "Black People",
+                "Discrimination",
+                "Critical Race Theory",
+                "Private and Sectarian Schools",
+                "United States Politics and Government"
+            ],
+            "org_facet": [
+                "Senate",
+                "Supreme Court (US)",
+                "Georgetown Day School (Washington, DC)"
+            ],
+            "per_facet": [
+                "Jackson, Ketanji Brown (1970- )",
+                "Cruz, Ted"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Judge Ketanji Brown Jackson is a member of the board of trustees at Georgetown Day School, a private school in Northwest Washington where tuition costs more than $40,000 a year.",
+                    "copyright": "T.J. Kirkpatrick for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/multimedia/24xp-Cruz/merlin_204404142_adb47d6e-0642-4ad6-a852-7889df4962a8-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/multimedia/24xp-Cruz/merlin_204404142_adb47d6e-0642-4ad6-a852-7889df4962a8-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/24/multimedia/24xp-Cruz/merlin_204404142_adb47d6e-0642-4ad6-a852-7889df4962a8-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/049c24b8-6409-5756-af8e-e67e267333fc",
+            "url": "https://www.nytimes.com/article/4th-covid-shot-2nd-booster.html",
+            "id": 100000008258517,
+            "asset_id": 100000008258517,
+            "source": "New York Times",
+            "published_date": "2022-03-18",
+            "updated": "2022-03-23 18:33:09",
+            "section": "Well",
+            "subsection": "",
+            "nytdsection": "well",
+            "adx_keywords": "Coronavirus (2019-nCoV);Vaccination and Immunization;Content Type: Service;Immune System;Antibodies;Elderly;audio-neutral-informative;Pfizer Inc",
+            "column": null,
+            "byline": "By Knvul Sheikh",
+            "type": "Article",
+            "title": "Who Should Get a 4th Covid Shot?",
+            "abstract": "Experts say that the most vulnerable would benefit from a second booster soonest.",
+            "des_facet": [
+                "Coronavirus (2019-nCoV)",
+                "Vaccination and Immunization",
+                "Content Type: Service",
+                "Immune System",
+                "Antibodies",
+                "Elderly",
+                "audio-neutral-informative"
+            ],
+            "org_facet": [
+                "Pfizer Inc"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Charity Rachelle for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/22/well/17well-4th-dose/17well-4th-dose-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/22/well/17well-4th-dose/17well-4th-dose-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/22/well/17well-4th-dose/17well-4th-dose-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        }
+    ]
+}

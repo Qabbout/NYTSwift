@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F742828A27F0D70800771618 /* MockNYTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F742828927F0D70800771618 /* MockNYTService.swift */; };
+		F742828D27F0D90B00771618 /* articles.json in Resources */ = {isa = PBXBuildFile; fileRef = F742828C27F0D90B00771618 /* articles.json */; };
 		F757096927EECC0A006BBF02 /* ArticlesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757096827EECC0A006BBF02 /* ArticlesTableViewCell.swift */; };
 		F757096F27EF6591006BBF02 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757096E27EF6591006BBF02 /* Results.swift */; };
 		F757097227EF6792006BBF02 /* NYTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757097127EF6792006BBF02 /* NYTService.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F742828927F0D70800771618 /* MockNYTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNYTService.swift; sourceTree = "<group>"; };
+		F742828C27F0D90B00771618 /* articles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = articles.json; sourceTree = "<group>"; };
 		F757096827EECC0A006BBF02 /* ArticlesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewCell.swift; sourceTree = "<group>"; };
 		F757096C27EF6093006BBF02 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		F757096E27EF6591006BBF02 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
@@ -85,6 +89,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F742828827F0D6F000771618 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F742828927F0D70800771618 /* MockNYTService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F742828B27F0D8E500771618 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F742828C27F0D90B00771618 /* articles.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		F757096D27EF649C006BBF02 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +169,8 @@
 		F7AE3E3527EE4CBE00274564 /* NYTTests */ = {
 			isa = PBXGroup;
 			children = (
+				F742828B27F0D8E500771618 /* Data */,
+				F742828827F0D6F000771618 /* Mocks */,
 				F7AE3E3627EE4CBE00274564 /* NYTTests.swift */,
 			);
 			path = NYTTests;
@@ -287,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F742828D27F0D90B00771618 /* articles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AE3E3727EE4CBE00274564 /* NYTTests.swift in Sources */,
+				F742828A27F0D70800771618 /* MockNYTService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
