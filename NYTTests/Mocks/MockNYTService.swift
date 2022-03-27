@@ -11,6 +11,8 @@ import Foundation
 
 class MockNYTService {
 
+    //MARK: Variables
+
  
     private var jsonData = Bundle(for: NYTTests.self).url(forResource: "articles", withExtension: "json")
 
@@ -19,6 +21,9 @@ class MockNYTService {
 
     var shouldReturnError = false
     var getArticlesCalled = false
+
+
+    //MARK: Business Logic
 
     private func reset() {
         shouldReturnError = false
@@ -48,6 +53,8 @@ class MockNYTService {
 
 
 }
+
+//MARK: NYTServiceProtocol Methods
 
 extension MockNYTService: NYTServiceProtocol {
     func getArticles(completion: @escaping (Swift.Result<Results, Error>) -> Void) {
