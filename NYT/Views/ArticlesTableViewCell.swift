@@ -9,6 +9,8 @@ import UIKit
 
 class ArticlesTableViewCell: UITableViewCell {
 
+    //MARK: Variables
+
     @IBOutlet weak var titleLabel: UILabel!
 
     @IBOutlet weak var authorLabel: UILabel!
