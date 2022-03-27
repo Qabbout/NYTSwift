@@ -8,10 +8,14 @@
 import Foundation
 
 
+protocol NYTServiceProtocol {
 
+    func getArticles(completion: @escaping (Swift.Result<Results, Error>) -> Void)
+}
 
 struct NYTService {
 
+    
     static let API_KEY = (Bundle.main.infoDictionary?["API_KEY"] as? String)!
 
     static let section = "all-sections"
@@ -22,15 +26,6 @@ struct NYTService {
 
     private init() { }
     static var shared = NYTService()
-
-
-    func getArticles(completion: @escaping (Swift.Result<Results, Error>) -> Void) {
-        performRequest(with: NYTService.baseUrlString) { result in
-            completion(result)
-
-        }
-
-    }
 
 
     private func performRequest(with urlString: String, completion: @escaping (Swift.Result<Results, Error>) -> Void) {
@@ -73,5 +68,17 @@ struct NYTService {
         }
     }
 
+}
+
+extension NYTService: NYTServiceProtocol {
+
+
+    func getArticles(completion: @escaping (Swift.Result<Results, Error>) -> Void) {
+        performRequest(with: NYTService.baseUrlString) { result in
+            completion(result)
+
+        }
+
+    }
 }
 
