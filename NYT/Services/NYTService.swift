@@ -15,7 +15,9 @@ protocol NYTServiceProtocol {
 
 struct NYTService {
 
-    
+    //MARK: Variables
+
+
     static let API_KEY = (Bundle.main.infoDictionary?["API_KEY"] as? String)!
 
     static let section = "all-sections"
@@ -27,6 +29,8 @@ struct NYTService {
     private init() { }
     static var shared = NYTService()
 
+
+    //MARK: Business Logic
 
     private func performRequest(with urlString: String, completion: @escaping (Swift.Result<Results, Error>) -> Void) {
         if let url = URL(string: urlString) {
@@ -69,6 +73,8 @@ struct NYTService {
     }
 
 }
+
+//MARK: NYTServiceProtocol Methods
 
 extension NYTService: NYTServiceProtocol {
 
