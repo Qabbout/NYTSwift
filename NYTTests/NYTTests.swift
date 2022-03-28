@@ -160,7 +160,7 @@ class NYTTests: XCTestCase {
         XCTAssertNil(results)
         XCTAssertNotNil(resultsError)
 
-
     }
+
 
 }
