@@ -4,11 +4,11 @@ New York Times most popular articles iOS app using Swift, UIKit, MVC architectur
 
 <div align="center">
 
- <img src="" width="25%"</img> 
+ <img src="https://user-images.githubusercontent.com/60781548/160478812-abf73c9e-178b-4dc2-affc-5fe67e8f9cb9.png" width="25%"></img> 
  <img width="50"></img>
- <img src="" width="25%"<img> 
+ <img src="https://user-images.githubusercontent.com/60781548/160478836-6f79d21e-696b-4bf2-984c-f6f16e49234e.png" width="25%"><img> 
  <img width="50"></img>
- <img src="" width="25%"<img>
+ <img src="https://user-images.githubusercontent.com/60781548/160478850-bb87d640-4f8b-47cb-a997-64701748611c.png" width="25%"><img>
   
 </div>
 
@@ -43,8 +43,9 @@ This can be done through xcode by running Command + U, or using the Test Navigat
 
 ### Xcode:
 
-<img src= "" width="25%">
-
+<div align="center">
+<img src="https://user-images.githubusercontent.com/60781548/160479511-1a8a2359-c768-442d-8cd7-6a6288a8f27b.png" width="25%"></img>
+</div>
 
 ### FastLane
 
@@ -54,3 +55,7 @@ This can be done through xcode by running Command + U, or using the Test Navigat
 fastlane scan --scheme "NYT" --device "iPhone 11"
 
 ```
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/60781548/160479761-57ae9d4f-c64b-42d0-833e-beee3da2d218.png" width="75%"></img>
+</div>
