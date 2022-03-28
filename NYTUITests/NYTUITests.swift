@@ -8,6 +8,8 @@
 import XCTest
 
 class NYTUITests: XCTestCase {
+    let app = XCUIApplication()
+
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -16,27 +18,49 @@ class NYTUITests: XCTestCase {
         continueAfterFailure = false
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        app.launch()
+
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
+   
+    func testShouldHaveNavBarWithTitle() throws {
+        let navBar = app.navigationBars["NY Times Most Popular"]
 
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+        XCTAssertNotNil(navBar)
+
     }
 
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+    func testShouldHaveNavBarWithRightBarButtonSearch() throws {
+
+        let searchBarButton = XCUIApplication().navigationBars["NY Times Most Popular"].buttons["Search"]
+
+        XCTAssertNotNil(searchBarButton)
+
+
+    }
+
+    func testShouldHaveNavBarWithRightBarButtonMore() throws {
+
+        let moreBarButton = XCUIApplication().navigationBars["NY Times Most Popular"].buttons["more"]
+
+        XCTAssertNotNil(moreBarButton)
+
+
+
+    }
+
+    func testShouldHaveNavBarWithRightBarButtonDrag() throws {
+
+        let dragBarButton = XCUIApplication().navigationBars["NY Times Most Popular"].buttons["drag"]
+
+
+        XCTAssertNotNil(dragBarButton)
+
+
     }
 }
