@@ -29,7 +29,7 @@ then you add to the info.plist the following key "API_KEY" with the valuy "$(API
 
 Note: this step requires an apple developer account
 
-you can either build the app through xcode or through fastlane tools, to use fastlane cd to the root folder of the project first, then run the following:
+you can either build the app through Xcode or through Fastlane Tools, to use fastlane cd to the root folder of the project first, then run the following:
 
 ```console
 
@@ -41,12 +41,12 @@ fastlane gym --verbose
 
 This can be done through xcode by running Command + U, or using the Test Navigator and chhosing what test to run (or all of them). Testing could be done through fastlane tools too.
 
-### xcode:
+### Xcode:
 
 <img src= "" width="25%">
 
 
-### fastlane
+### FastLane
 
 
 ```console
