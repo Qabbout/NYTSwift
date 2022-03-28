@@ -104,7 +104,17 @@ class NYTUITests: XCTestCase {
 
     }
 
-   
+    //MARK: Details View Tests
+
+    func testDetailsViewShouldHaveAbstractLabel() throws {
+
+        let abstract = app.children(matching: .staticText).matching(identifier: "abstract")
+
+        XCTAssertNotNil(abstract)
+
+
+
+    }
 
 
 
