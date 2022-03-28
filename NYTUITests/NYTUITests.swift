@@ -95,11 +95,9 @@ class NYTUITests: XCTestCase {
     }
 
     func testTableViewCellShouldBeClickable() throws {
-        let tableCells = app.tables.firstMatch.cells
+        let tableCell = app.tables.firstMatch.cells.firstMatch
 
-        for cell in tableCells.allElementsBoundByIndex {
-            XCTAssertTrue(cell.isHittable)
-        }
+        XCTAssertTrue(tableCell.isHittable)
 
 
     }
