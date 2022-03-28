@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='NYTTests.xctest' tests='19' failures='1'>
+  <testsuite name='NYTUITests.NYTUITests' tests='8' failures='1'>
+    <testcase classname='NYTUITests.NYTUITests' name='testDetailsViewShouldHaveAbstractLabel' time='4.030'/>
+    <testcase classname='NYTUITests.NYTUITests' name='testShouldHaveNavBarWithRightBarButtonDrag' time='3.157'/>
+    <testcase classname='NYTUITests.NYTUITests' name='testShouldHaveNavBarWithRightBarButtonMore' time='3.168'/>
+    <testcase classname='NYTUITests.NYTUITests' name='testShouldHaveNavBarWithRightBarButtonSearch' time='3.299'/>
+    <testcase classname='NYTUITests.NYTUITests' name='testShouldHaveNavBarWithTitle' time='3.303'/>
+    <testcase classname='NYTUITests.NYTUITests' name='testShouldRemoveActivityIndicatorWhenTableHasData' time='4.521'/>
+    <testcase classname='NYTUITests.NYTUITests' name='testShouldShowActivityIndicatorWhenTableHasNotData' time='3.483'/>
+    <testcase classname='NYTUITests.NYTUITests' name='testTableViewCellShouldBeClickable'>
+      <failure message='XCTAssertTrue failed'>NYTUITests/NYTUITests.swift:101</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name='NYTUITests.NYTUITestsLaunchTests' tests='4' failures='0'>
+    <testcase classname='NYTUITests.NYTUITestsLaunchTests' name='testLaunch' time='5.494'/>
+    <testcase classname='NYTUITests.NYTUITestsLaunchTests' name='testLaunch' time='5.957'/>
+    <testcase classname='NYTUITests.NYTUITestsLaunchTests' name='testLaunch' time='4.500'/>
+    <testcase classname='NYTUITests.NYTUITestsLaunchTests' name='testLaunch' time='5.919'/>
+  </testsuite>
+  <testsuite name='NYTTests.NYTTests' tests='7' failures='0'>
+    <testcase classname='NYTTests.NYTTests' name='testGetArticlesResultsShouldNotThrow' time='0.009'/>
+    <testcase classname='NYTTests.NYTTests' name='testGetArticlesShouldReturnArticles' time='0.004'/>
+    <testcase classname='NYTTests.NYTTests' name='testGetArticlesShouldReturnArticlesNotNil' time='0.005'/>
+    <testcase classname='NYTTests.NYTTests' name='testGetArticlesShouldReturnSwiftResultNotNil' time='0.006'/>
+    <testcase classname='NYTTests.NYTTests' name='testGetArticlesShouldThrowGetArticlesError' time='0.004'/>
+    <testcase classname='NYTTests.NYTTests' name='testLoadJsonShouldReturnNotNilResultsModel' time='0.007'/>
+    <testcase classname='NYTTests.NYTTests' name='testLoadJsonShouldReturnValidResultsModel' time='0.006'/>
+  </testsuite>
+</testsuites>
