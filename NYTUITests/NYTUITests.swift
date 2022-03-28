@@ -26,7 +26,9 @@ class NYTUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-   
+
+    //MARK: NavBar Tests
+
     func testShouldHaveNavBarWithTitle() throws {
         let navBar = app.navigationBars["NY Times Most Popular"]
 
@@ -63,4 +65,49 @@ class NYTUITests: XCTestCase {
 
 
     }
+
+    //MARK: Table Tests
+
+    func testShouldShowActivityIndicatorWhenTableHasNotData() throws {
+
+
+        let table = app.tables.firstMatch
+        if table.cells.count == 0 {
+            let activityIndicator = app.tables["In progress"].activityIndicators["In progress"]
+
+
+            XCTAssertTrue(activityIndicator.exists)
+        }
+
+
+
+    }
+
+    func testShouldRemoveActivityIndicatorWhenTableHasData() throws {
+        let table = app.tables.firstMatch
+        let activityIndicator = app.tables["In progress"].activityIndicators["In progress"]
+
+        let areTableCellsExist = table.cells.element.waitForExistence(timeout: 7)
+
+        XCTAssertTrue(areTableCellsExist)
+        XCTAssertFalse(activityIndicator.exists)
+
+    }
+
+    func testTableViewCellShouldBeClickable() throws {
+        let tableCells = app.tables.firstMatch.cells
+
+        for cell in tableCells.allElementsBoundByIndex {
+            XCTAssertTrue(cell.isHittable)
+        }
+
+
+    }
+
+   
+
+
+
+
+
 }
