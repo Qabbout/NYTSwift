@@ -32,12 +32,12 @@ class MockNYTService {
 
     }
 
-    func loadJsonAsResultsModel() -> Results? {
+    func loadJsonAsResultsModel() -> ResultResponse? {
         let decoder = JSONDecoder()
 
         do {
             let data = try Data(contentsOf: jsonData!)
-            let decodedData = try decoder.decode(Results.self, from: data)
+            let decodedData = try decoder.decode(ResultResponse.self, from: data)
             let results = decodedData
             return results
 
@@ -57,7 +57,7 @@ class MockNYTService {
 //MARK: NYTServiceProtocol Methods
 
 extension MockNYTService: NYTServiceProtocol {
-    func getArticles(completion: @escaping (Swift.Result<Results, Error>) -> Void) {
+    func getArticles(completion: @escaping (Swift.Result<ResultResponse, Error>) -> Void) {
 
         getArticlesCalled = true
 

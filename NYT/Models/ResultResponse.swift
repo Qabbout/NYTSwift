@@ -1,5 +1,5 @@
 //
-//  Results.swift
+//  ResultResponse.swift
 //  NYT
 //
 //  Created by Abdulrahman on 3/26/22.
@@ -9,7 +9,7 @@
 import Foundation
 
 // MARK: - Results
-struct Results: Codable {
+struct ResultResponse: Decodable {
 
     let numResults: Int
     let results: [Result]
@@ -21,7 +21,7 @@ struct Results: Codable {
 }
 
 // MARK: - Result
-struct Result: Codable {
+struct Result: Decodable {
     let title, abstract, byline, publishedDate: String
 
     enum CodingKeys: String, CodingKey {

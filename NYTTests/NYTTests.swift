@@ -11,8 +11,8 @@ import XCTest
 class NYTTests: XCTestCase {
 
     let moockAPI = MockNYTService.shared
-    var results: Results?
-    var swiftResult: Swift.Result<Results, Error>?
+    var results: ResultResponse?
+    var swiftResult: Swift.Result<ResultResponse, Error>?
 
 
 
