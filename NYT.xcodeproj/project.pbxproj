@@ -164,13 +164,6 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		F757097327EF7454006BBF02 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		F75C1CF427FEC72E007A75B2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,7 +210,6 @@
 				F75C1CF427FEC72E007A75B2 /* ViewModels */,
 				F757096D27EF649C006BBF02 /* Models */,
 				F7AE3E5127EE76C500274564 /* Views */,
-				F757097327EF7454006BBF02 /* Controllers */,
 				F757097027EF676C006BBF02 /* Services */,
 				F7AE3E1F27EE4CBA00274564 /* AppDelegate.swift */,
 				F7AE3E2127EE4CBA00274564 /* SceneDelegate.swift */,
