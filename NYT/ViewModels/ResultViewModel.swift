@@ -42,16 +42,19 @@ struct ResultViewModel {
 extension ResultViewModel {
 
     var title: Observable<String> {
-        return Observable<String>.just(result.title)
+        return Observable<String>.just(result.title ?? "")
 
     }
     var abstract: Observable<String> {
-        return Observable<String>.just(result.abstract)
+        return Observable<String>.just(result.abstract ?? "")
     }
     var byline: Observable<String> {
-        return Observable<String>.just(result.byline)
+        return Observable<String>.just(result.byline ?? "")
     }
     var publishedDate: Observable<String> {
-        return Observable<String>.just(result.publishedDate)
+        return Observable<String>.just(result.published_date ?? "")
+    }
+    var media: Observable<[Media]?> {
+        return Observable<[Media]?>.just(result.media)
     }
 }
