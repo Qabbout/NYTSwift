@@ -27,6 +27,7 @@
 		F7AE3E4127EE4CBE00274564 /* NYTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE3E4027EE4CBE00274564 /* NYTUITests.swift */; };
 		F7AE3E4327EE4CBE00274564 /* NYTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE3E4227EE4CBE00274564 /* NYTUITestsLaunchTests.swift */; };
 		F7AE3E5027EE531C00274564 /* ArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE3E4F27EE531C00274564 /* ArticlesTableViewController.swift */; };
+		F7FA753027FEE5B800E76BF7 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA752F27FEE5B800E76BF7 /* Media.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		F7AE3E4227EE4CBE00274564 /* NYTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F7AE3E4F27EE531C00274564 /* ArticlesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewController.swift; sourceTree = "<group>"; };
 		F7DE1D4027F248FD004B8CE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F7FA752F27FEE5B800E76BF7 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				F757096E27EF6591006BBF02 /* ResultResponse.swift */,
+				F7FA752F27FEE5B800E76BF7 /* Media.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -496,6 +499,7 @@
 				F7AE3E5027EE531C00274564 /* ArticlesTableViewController.swift in Sources */,
 				F7AE3E2027EE4CBA00274564 /* AppDelegate.swift in Sources */,
 				F757097827EFBA07006BBF02 /* DetailsViewController.swift in Sources */,
+				F7FA753027FEE5B800E76BF7 /* Media.swift in Sources */,
 				F7AE3E2227EE4CBA00274564 /* SceneDelegate.swift in Sources */,
 				F757096F27EF6591006BBF02 /* ResultResponse.swift in Sources */,
 				F75C1CF927FEC8BF007A75B2 /* URLRequest+Extension.swift in Sources */,

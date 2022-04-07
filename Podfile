@@ -9,6 +9,7 @@ target 'NYT' do
   # Pods for NYT
   pod 'RxSwift', '6.5.0'
   pod 'RxCocoa', '6.5.0'
+  pod 'SDWebImage', '~> 5.0'
 
   target 'NYTTests' do
     inherit! :search_paths
