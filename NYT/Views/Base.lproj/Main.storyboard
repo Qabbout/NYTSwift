@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YFG-pZ-egP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YFG-pZ-egP">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -100,8 +100,8 @@
                                 <connections>
                                     <outlet property="authorLabel" destination="9gO-lZ-PiF" id="flw-u1-av2"/>
                                     <outlet property="dateLabel" destination="DBi-ap-Jdy" id="Eh2-CP-dGU"/>
+                                    <outlet property="mediaImage" destination="L44-Eg-0Bh" id="xEh-ob-AWx"/>
                                     <outlet property="titleLabel" destination="7IG-tv-JDt" id="dcf-Gd-jYt"/>
-                                    <segue destination="Jp4-gc-Oz1" kind="show" identifier="goToArticle" id="DjQ-in-Wyo"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -125,6 +125,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="activityIndicator" destination="6nl-P5-qQf" id="4iu-Za-0aY"/>
+                        <segue destination="Jp4-gc-Oz1" kind="show" identifier="goToArticle" id="go4-2L-W9p"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g3E-ZI-7YA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -134,7 +135,7 @@
         <!--Details View Controller-->
         <scene sceneID="egb-CV-W7M">
             <objects>
-                <viewController id="Jp4-gc-Oz1" customClass="DetailsViewController" customModule="NYT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailsViewController" id="Jp4-gc-Oz1" customClass="DetailsViewController" customModule="NYT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v4N-QW-LAI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

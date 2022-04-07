@@ -16,6 +16,9 @@ class ArticlesTableViewCell: UITableViewCell {
     @IBOutlet weak var authorLabel: UILabel!
 
     @IBOutlet weak var dateLabel: UILabel!
+
+    @IBOutlet weak var mediaImage: UIImageView!
+
     
     override func awakeFromNib() {
         super.awakeFromNib()
