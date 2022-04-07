@@ -13,9 +13,11 @@
 		F742828A27F0D70800771618 /* MockNYTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F742828927F0D70800771618 /* MockNYTService.swift */; };
 		F742828D27F0D90B00771618 /* articles.json in Resources */ = {isa = PBXBuildFile; fileRef = F742828C27F0D90B00771618 /* articles.json */; };
 		F757096927EECC0A006BBF02 /* ArticlesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757096827EECC0A006BBF02 /* ArticlesTableViewCell.swift */; };
-		F757096F27EF6591006BBF02 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757096E27EF6591006BBF02 /* Results.swift */; };
+		F757096F27EF6591006BBF02 /* ResultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757096E27EF6591006BBF02 /* ResultResponse.swift */; };
 		F757097227EF6792006BBF02 /* NYTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757097127EF6792006BBF02 /* NYTService.swift */; };
 		F757097827EFBA07006BBF02 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757097727EFBA07006BBF02 /* DetailsViewController.swift */; };
+		F75C1CF627FEC767007A75B2 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C1CF527FEC767007A75B2 /* ResultViewModel.swift */; };
+		F75C1CF927FEC8BF007A75B2 /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C1CF827FEC8BF007A75B2 /* URLRequest+Extension.swift */; };
 		F7AE3E2027EE4CBA00274564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE3E1F27EE4CBA00274564 /* AppDelegate.swift */; };
 		F7AE3E2227EE4CBA00274564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AE3E2127EE4CBA00274564 /* SceneDelegate.swift */; };
 		F7AE3E2727EE4CBB00274564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AE3E2527EE4CBB00274564 /* Main.storyboard */; };
@@ -58,9 +60,11 @@
 		F742828C27F0D90B00771618 /* articles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = articles.json; sourceTree = "<group>"; };
 		F757096827EECC0A006BBF02 /* ArticlesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewCell.swift; sourceTree = "<group>"; };
 		F757096C27EF6093006BBF02 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
-		F757096E27EF6591006BBF02 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		F757096E27EF6591006BBF02 /* ResultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultResponse.swift; sourceTree = "<group>"; };
 		F757097127EF6792006BBF02 /* NYTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTService.swift; sourceTree = "<group>"; };
 		F757097727EFBA07006BBF02 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F75C1CF527FEC767007A75B2 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		F75C1CF827FEC8BF007A75B2 /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
 		F7AE3E1C27EE4CBA00274564 /* NYT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AE3E1F27EE4CBA00274564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7AE3E2127EE4CBA00274564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,7 +119,6 @@
 				42A7C11A3130C31E7ACFCD2C /* Pods-NYTTests.debug.xcconfig */,
 				0D7CC43AC7F287F9761E62CB /* Pods-NYTTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -148,7 +151,7 @@
 		F757096D27EF649C006BBF02 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F757096E27EF6591006BBF02 /* Results.swift */,
+				F757096E27EF6591006BBF02 /* ResultResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,6 +171,22 @@
 				F757097727EFBA07006BBF02 /* DetailsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F75C1CF427FEC72E007A75B2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F75C1CF527FEC767007A75B2 /* ResultViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F75C1CF727FEC8A6007A75B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F75C1CF827FEC8BF007A75B2 /* URLRequest+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F7AE3E1327EE4CBA00274564 = {
@@ -196,6 +215,8 @@
 		F7AE3E1E27EE4CBA00274564 /* NYT */ = {
 			isa = PBXGroup;
 			children = (
+				F75C1CF727FEC8A6007A75B2 /* Extensions */,
+				F75C1CF427FEC72E007A75B2 /* ViewModels */,
 				F757096D27EF649C006BBF02 /* Models */,
 				F7AE3E5127EE76C500274564 /* Views */,
 				F757097327EF7454006BBF02 /* Controllers */,
@@ -484,7 +505,9 @@
 				F7AE3E2027EE4CBA00274564 /* AppDelegate.swift in Sources */,
 				F757097827EFBA07006BBF02 /* DetailsViewController.swift in Sources */,
 				F7AE3E2227EE4CBA00274564 /* SceneDelegate.swift in Sources */,
-				F757096F27EF6591006BBF02 /* Results.swift in Sources */,
+				F757096F27EF6591006BBF02 /* ResultResponse.swift in Sources */,
+				F75C1CF927FEC8BF007A75B2 /* URLRequest+Extension.swift in Sources */,
+				F75C1CF627FEC767007A75B2 /* ResultViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
