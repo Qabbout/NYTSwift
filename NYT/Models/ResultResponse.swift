@@ -22,12 +22,6 @@ struct ResultResponse: Decodable {
 
 // MARK: - Result
 struct Result: Decodable {
-    let title, abstract, byline, publishedDate: String
-
-    enum CodingKeys: String, CodingKey {
-
-        case publishedDate = "published_date"
-        case byline, title, abstract
-
-    }
+    let title, abstract, byline, published_date: String?
+    let media: [Media]?
 }
