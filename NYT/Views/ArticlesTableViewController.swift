@@ -8,6 +8,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import SDWebImage
 
 class ArticlesTableViewController: UITableViewController {
 
@@ -104,29 +105,22 @@ class ArticlesTableViewController: UITableViewController {
             .drive(cell.dateLabel.rx.text)
             .disposed(by: disposeBag)
 
+        resultVM?.media.subscribe(onNext: { media in
+
+            cell.mediaImage.sd_setImage(with: URL(string: media?.first?.mediaMetaData.first?.url ?? ""))
+
+        }).disposed(by: disposeBag)
+
         return cell
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
+        vc.resultVM = resultListVM?.articleAt(indexPath.section)
+        navigationController?.pushViewController(vc, animated: true)
         tableView.deselectRow(at: indexPath, animated: true)
-
     }
-
-    //MARK: Nivagtions
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let selectedPath = tableView.indexPathForSelectedRow else { return }
-        switch segue.identifier {
-        case DetailsViewController.segueIdentifier:
-            if let destination = segue.destination as? DetailsViewController {
-                destination.resultVM = resultListVM?.articleAt(selectedPath.section)
-            }
-        default:
-            return
-        }
-    }
-
-
 
 }
 
