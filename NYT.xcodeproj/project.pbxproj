@@ -167,8 +167,6 @@
 		F757097327EF7454006BBF02 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F7AE3E4F27EE531C00274564 /* ArticlesTableViewController.swift */,
-				F757097727EFBA07006BBF02 /* DetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -252,6 +250,8 @@
 		F7AE3E5127EE76C500274564 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F7AE3E4F27EE531C00274564 /* ArticlesTableViewController.swift */,
+				F757097727EFBA07006BBF02 /* DetailsViewController.swift */,
 				F757096827EECC0A006BBF02 /* ArticlesTableViewCell.swift */,
 				F7AE3E2527EE4CBB00274564 /* Main.storyboard */,
 				F7AE3E2A27EE4CBE00274564 /* LaunchScreen.storyboard */,
