@@ -6,13 +6,15 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ArticlesTableViewController: UITableViewController {
 
     //MARK: Variables
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
 
-    var results: Results? {
+    private var resultListVM: ResultListViewModel? {
         didSet {
             DispatchQueue.main.async { [weak self] in
 
@@ -22,6 +24,8 @@ class ArticlesTableViewController: UITableViewController {
             }
         }
     }
+    let disposeBag = DisposeBag()
+
 
     //MARK: LifeCycle Methods
 
@@ -30,20 +34,18 @@ class ArticlesTableViewController: UITableViewController {
         addShadowToNavBar()
         setUpActivityIndicator()
 
-    }
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
 
-        NYTService.shared.getArticles { [weak self] result in
-            do {
-                self?.results = try result.get()
+        let resultsObservable = NYTService.shared.populateNews()
+        resultsObservable.subscribe(
+            onNext: { resultResponse in
+                let results = resultResponse.results
 
-            } catch {
-                print(error.localizedDescription)
+                self.resultListVM = ResultListViewModel(results)
             }
-        }
+        ).disposed(by: disposeBag)
 
     }
+
 
     // MARK: UI Tweaks
 
@@ -59,7 +61,7 @@ class ArticlesTableViewController: UITableViewController {
 
     }
 
-    func setUpActivityIndicator(){
+    func setUpActivityIndicator() {
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             activityIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -75,7 +77,7 @@ class ArticlesTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
 
-        return results?.numResults ?? 0
+        return resultListVM?.resultListViewModel.count ?? 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -87,12 +89,20 @@ class ArticlesTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "article", for: indexPath) as! ArticlesTableViewCell
 
-        if let results = results {
-            cell.titleLabel.text = results.results[indexPath.section].title
-            cell.authorLabel.text = results.results[indexPath.section].byline
-            cell.dateLabel.text = results.results[indexPath.section].publishedDate
-        }
+        let resultVM = resultListVM?.resultListViewModel[indexPath.section]
 
+        resultVM?.title
+            .asDriver(onErrorJustReturn: "No Title Name")
+            .drive(cell.titleLabel.rx.text)
+            .disposed(by: disposeBag)
+
+        resultVM?.byline.asDriver(onErrorJustReturn: "No Author Name")
+            .drive(cell.authorLabel.rx.text)
+            .disposed(by: disposeBag)
+
+        resultVM?.publishedDate.asDriver(onErrorJustReturn: "No Date")
+            .drive(cell.dateLabel.rx.text)
+            .disposed(by: disposeBag)
 
         return cell
     }
@@ -107,12 +117,12 @@ class ArticlesTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let selectedPath = tableView.indexPathForSelectedRow else { return }
         switch segue.identifier {
-            case DetailsViewController.segueIdentifier:
-                if let destination = segue.destination as? DetailsViewController {
-                    destination.result = results?.results[selectedPath.section]
-                }
-            default:
-                return
+        case DetailsViewController.segueIdentifier:
+            if let destination = segue.destination as? DetailsViewController {
+                destination.resultVM = resultListVM?.articleAt(selectedPath.section)
+            }
+        default:
+            return
         }
     }
 

@@ -1,6 +1,6 @@
 #  NYT Most Popular Articles
 
-New York Times most popular articles iOS app using Swift, UIKit, MVC architecture and FastLane tools.
+New York Times most popular articles iOS app using Swift, UIKit, MVVM architecture, RxSwift and FastLane tools.
 
 <div align="center">
 

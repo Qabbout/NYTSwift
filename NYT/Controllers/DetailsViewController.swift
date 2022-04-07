@@ -6,27 +6,33 @@
 //
 
 import UIKit
+import RxSwift
 
 class DetailsViewController: UIViewController {
 
     //MARK: Variables
     static let segueIdentifier: String = "goToArticle"
 
+    let disposeBag = DisposeBag()
     
     @IBOutlet weak var detailsLabel: UILabel!
 
-    var result: Result? {
-        didSet {
-            DispatchQueue.main.async { [weak self] in
-                self?.detailsLabel?.text = self?.result?.abstract
-            }
-
-        }
-    }
+    var resultVM: ResultViewModel?
 
 
     //MARK: LifeCycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        bindViews()
+    }
+
+    private func bindViews(){
+
+        resultVM?.abstract.asDriver(onErrorJustReturn: "No Abstarct")
+            .drive(detailsLabel.rx.text)
+
+            .disposed(by: disposeBag)
+
     }
 }

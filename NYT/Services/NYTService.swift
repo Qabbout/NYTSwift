@@ -6,11 +6,12 @@
 //
 
 import Foundation
+import RxSwift
 
 
 protocol NYTServiceProtocol {
 
-    func getArticles(completion: @escaping (Swift.Result<Results, Error>) -> Void)
+    func getArticles(completion: @escaping (Swift.Result<ResultResponse, Error>) -> Void)
 }
 
 struct NYTService {
@@ -32,59 +33,9 @@ struct NYTService {
 
     //MARK: Business Logic
 
-    private func performRequest(with urlString: String, completion: @escaping (Swift.Result<Results, Error>) -> Void) {
-        if let url = URL(string: urlString) {
+    func populateNews() -> Observable<ResultResponse> {
+        let resource = Resource<ResultResponse>(url: URL(string: NYTService.baseUrlString)!)
 
-            let session = URLSession(configuration: .default)
-
-            let task = session.dataTask(with: url) { data, response, error in
-
-                if let error = error {
-                    completion(.failure(error))
-
-                }
-
-                if let data = data {
-                    if let results = self.parseJson(data) {
-                        completion(.success(results))
-
-
-                    }
-
-                }
-            }
-            task.resume()
-        }
-
-    }
-
-    private func parseJson(_ data: Data) -> Results? {
-        let decoder = JSONDecoder()
-        do {
-            let decodedData = try decoder.decode(Results.self, from: data)
-            let results = decodedData
-            return results
-
-        } catch {
-
-            print(error.localizedDescription)
-            return nil
-        }
-    }
-
-}
-
-//MARK: NYTServiceProtocol Methods
-
-extension NYTService: NYTServiceProtocol {
-
-
-    func getArticles(completion: @escaping (Swift.Result<Results, Error>) -> Void) {
-        performRequest(with: NYTService.baseUrlString) { result in
-            completion(result)
-
-        }
-
+        return URLRequest.load(resource: resource)
     }
 }
-
